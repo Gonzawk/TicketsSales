@@ -1,0 +1,38 @@
+.admin-entrada-qr {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .lector-qr-header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .lector-qr-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .mensaje {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .mensaje.green {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .mensaje.red {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

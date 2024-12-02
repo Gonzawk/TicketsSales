@@ -1,0 +1,60 @@
+.admin-pagos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.pagos-card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.pagos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pagos-table, .pagos-table th, .pagos-table td {
+  border: 1px solid #ddd;
+}
+
+.pagos-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.pagos-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.pagos-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pagos-table tr:hover {
+  background-color: #f1f1f1;
+}
