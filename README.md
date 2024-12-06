@@ -195,7 +195,7 @@ Los administradores cuentan con un conjunto avanzado de herramientas para gestio
 
 ## 📌 Autor
 
-**👨‍💻 [Gonzalo Daniel Paz]**  
+**👨‍💻 [Gonzalo Daniel Paz]**  _@GonzaDev_
 _Full Stack Developer |_  
 
 💼 **Portafolio:** [Portafoliowebgonzalopaz.com](https://portafoliowebgonzalopaz.netlify.app)  
