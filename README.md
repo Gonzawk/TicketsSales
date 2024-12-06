@@ -198,11 +198,11 @@ Los administradores cuentan con un conjunto avanzado de herramientas para gestio
 **👨‍💻 [Gonzalo Daniel Paz]**  
 _Full Stack Developer |_  
 
-💼 **Portafolio:** [TuPortafolio.com](https://portafoliowebgonzalopaz.netlify.app)  
-📧 **Correo Electrónico:** [tunombre@email.com](mailto:tunombre@email.com)  
-🌐 **LinkedIn:** [linkedin.com/in/tuperfil](https://linkedin.com/in/gonzalodpaz/)  
-🐦 **Twitter:** [@tuusuario]([https://x.com/Gonza77])  
-📂 **GitHub:** [github.com/tuusuario](https://github.com/Gonzawk)  
+💼 **Portafolio:** [Portafoliowebgonzalopaz.com](https://portafoliowebgonzalopaz.netlify.app)  
+📧 **Correo Electrónico:** [Gonzalopaz@gmail.com](mailto:gdp43191989@gmail.com)  
+🌐 **LinkedIn:** [linkedin.com/in/gonzalodpaz](https://linkedin.com/in/gonzalodpaz/)  
+🐦 **Twitter:** [@Gonza Paz]([https://x.com/Gonza77])  
+📂 **GitHub:** [github.com/Gonzawk](https://github.com/Gonzawk)  
 
 ---
 
