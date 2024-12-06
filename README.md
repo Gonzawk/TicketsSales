@@ -102,3 +102,109 @@ La aplicación está diseñada con una interfaz clara y organizada, ofreciendo a
   - Los usuarios pueden buscar un pago específico por su **ID** para ver detalles adicionales.
 
 ---
+
+### 🛡️ Notas de Seguridad
+- La autenticación está gestionada mediante **JWT**, garantizando un acceso seguro.
+- Las contraseñas de los usuarios se almacenan encriptadas utilizando **BCrypt**.
+- Cada usuario tiene acceso únicamente a sus datos, entradas y pagos, protegiendo la privacidad.
+
+---
+---
+
+## 🛠️ Funcionalidades para Administradores
+
+Los administradores cuentan con un conjunto avanzado de herramientas para gestionar usuarios, eventos, entradas y pagos. Estas funcionalidades están organizadas en menús específicos:
+
+### 👥 Menú Usuarios
+- **Lista de Usuarios**:
+  - Acceso a una lista de todos los usuarios registrados en el sistema.
+  - Detalles disponibles:
+    - Nombre.
+    - Correo electrónico.
+    - Número de celular.
+    - Rol asignado.
+- **Registrar un Usuario**:
+  - Permite al administrador registrar nuevos usuarios ingresando:
+    - Nombre.
+    - Correo electrónico.
+    - Número de celular.
+    - Contraseña.
+    - **Rol del Usuario** (Usuario o Administrador).
+
+### 🎟️ Menú Eventos
+- **Lista de Eventos**:
+  - Visualización de todos los eventos registrados, incluyendo:
+    - Nombre del evento.
+    - Descripción.
+    - Ubicación.
+    - Fecha y hora.
+    - Precio.
+    - Cantidad de entradas disponibles.
+- **Registrar un Evento**:
+  - Permite crear un nuevo evento ingresando los siguientes datos:
+    - Nombre.
+    - Descripción.
+    - Ubicación.
+    - Fecha y hora.
+    - Cantidad de entradas disponibles.
+    - Precio.
+  - Los eventos registrados estarán disponibles automáticamente para los usuarios.
+
+### 📋 Menú Entradas
+- **Lista de Entradas**:
+  - Permite listar todas las entradas creadas, con información como:
+    - Evento asociado.
+    - ID de la entrada.
+    - Usuario que la reservó.
+    - Estado de la entrada (Activa, Pendiente, Cancelada, Usada).
+- **Detalles de una Entrada**:
+  - Permite buscar una entrada específica por su **ID** para acceder a toda la información asociada.
+- **Lector QR**:
+  - Herramienta clave para validar el uso de entradas en tiempo real:
+    - El administrador activa el lector QR y utiliza la cámara para escanear el código QR de la entrada.
+    - El sistema verifica el estado de la entrada y devuelve uno de los siguientes resultados:
+      - **Confirmado**: La entrada es válida y se registra como usada.
+      - **Error**: La entrada no está activa, ya está usada o su estado es inválido.
+
+### 💳 Menú Pagos
+- **Lista de Pagos**:
+  - Visualización de todos los pagos realizados en el sistema, con detalles como:
+    - ID del pago.
+    - Monto total.
+    - Usuario que realizó el pago.
+    - Estado del pago (Pendiente, Confirmado, Cancelado).
+- **Detalles de un Pago**:
+  - Permite buscar un pago específico por su **ID** para revisar información adicional.
+- **Pagos Pendientes**:
+  - Lista exclusiva de todos los pagos con estado **Pendiente**.
+  - Funcionalidades adicionales:
+    - **Confirmar Pago**:
+      - El administrador verifica la validez del pago y lo confirma.
+      - Al confirmar el pago:
+        - La entrada reservada por el usuario se activa y queda lista para su uso.
+      - Si el pago no es válido, puede dejarse en estado **Pendiente** o ser cancelado manualmente.
+
+---
+
+### 🔐 Seguridad para Administradores
+- Todas las acciones realizadas por el administrador requieren autenticación JWT.
+- Solo los usuarios con rol de **Administrador** tienen acceso a estas funcionalidades avanzadas.
+
+---
+---
+
+## 📌 Autor
+
+**👨‍💻 [Gonzalo Daniel Paz]**  
+_Full Stack Developer |_  
+
+💼 **Portafolio:** [TuPortafolio.com]([https://tuportafolio.com](https://portafoliowebgonzalopaz.netlify.app/))  
+📧 **Correo Electrónico:** [tunombre@email.com](mailto:gdp43191989@gmail.com)  
+🌐 **LinkedIn:** [linkedin.com/in/tuperfil]([https://linkedin.com/in/tuperfil](https://www.linkedin.com/in/gonzalodpaz/))  
+🐦 **Twitter:** [@tuusuario]([https://twitter.com/tuusuario](https://x.com/Gonza77_))  
+📂 **GitHub:** [github.com/tuusuario]([https://github.com/tuusuario](https://github.com/Gonzawk))  
+
+---
+
+> "El desarrollo es más que código" 🚀
+
