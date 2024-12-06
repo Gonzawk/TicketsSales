@@ -201,7 +201,7 @@ _Full Stack Developer |_
 💼 **Portafolio:** [Portafoliowebgonzalopaz.com](https://portafoliowebgonzalopaz.netlify.app)  
 📧 **Correo Electrónico:** [Gonzalopaz@gmail.com](mailto:gdp43191989@gmail.com)  
 🌐 **LinkedIn:** [linkedin.com/in/gonzalodpaz](https://linkedin.com/in/gonzalodpaz/)  
-🐦 **Twitter:** [@Gonza Paz]([https://x.com/Gonza77])  
+🐦 **Twitter:** [@GonzaPaz]([https://x.com/Gonza77])  
 📂 **GitHub:** [github.com/Gonzawk](https://github.com/Gonzawk)  
 
 ---
