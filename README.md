@@ -47,3 +47,58 @@
 4. Los roles de usuario (Administrador y Cliente) se gestionan mediante JWT, garantizando un acceso seguro y basado en permisos.
 
 ---
+---
+
+## 👤 Funcionalidades para Usuarios
+
+La aplicación está diseñada con una interfaz clara y organizada, ofreciendo a los usuarios diferentes menús para gestionar sus datos y operaciones:
+
+### 📄 Menú Usuario
+- **Ver y Modificar Datos**:
+  - Los usuarios podrán acceder a sus datos personales registrados.
+  - Podrán realizar modificaciones según sea necesario, como actualizar su nombre, correo, número de celular o contraseña.
+
+### 🎟️ Menú Eventos
+- **Lista de Eventos Disponibles**:
+  - Los usuarios podrán visualizar una lista de eventos disponibles, junto con:
+    - Nombre del evento.
+    - Ubicación.
+    - Fecha y hora.
+    - Precio por entrada.
+    - Cantidad de entradas disponibles.
+- **Reserva de Entradas**:
+  - Al seleccionar un evento, el usuario puede **reservar una entrada**.
+  - Esta acción generará automáticamente un pago pendiente que deberá ser validado por un administrador:
+    - **Pago Confirmado**: La entrada será activada y asignada al usuario.
+    - **Pago Cancelado**: La entrada será devuelta al stock.
+- **Búsqueda de Eventos**:
+  - Los usuarios pueden buscar eventos por:
+    - **Nombre del Evento**.
+    - **Ubicación**.
+    - **Fecha**.
+
+### 📋 Menú Entradas
+- **Lista de Entradas**:
+  - Los usuarios podrán ver una lista completa de las entradas que han adquirido.
+  - Cada entrada incluirá información como:
+    - Nombre del evento.
+    - Ubicación y fecha del evento.
+    - Estado de la entrada (Activa, Pendiente de Pago, Cancelada).
+- **Detalles de una Entrada**:
+  - Los usuarios pueden buscar una entrada específica por su **ID**.
+  - Detalles proporcionados:
+    - Código QR único asociado a la entrada.
+    - Información del evento (nombre, ubicación, fecha).
+    - Estado de la entrada.
+
+### 💳 Menú Pagos
+- **Lista de Pagos Realizados**:
+  - Los usuarios podrán acceder a un historial de todos los pagos generados.
+  - Cada pago mostrará detalles como:
+    - Fecha del pago.
+    - Monto total.
+    - Estado del pago (Pendiente, Confirmado, Cancelado).
+- **Detalles de un Pago**:
+  - Los usuarios pueden buscar un pago específico por su **ID** para ver detalles adicionales.
+
+---
