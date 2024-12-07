@@ -195,7 +195,8 @@ Los administradores cuentan con un conjunto avanzado de herramientas para gestio
 
 ### 📖 Instalacion y configuracion.
 
-**Requisitos Previos** 
+**Requisitos Previos**
+
 Antes de comenzar asegurese de tener instalado:
 1. Visual Studio (con las cargas de trabajo necesarias para el desarrollo con .NET Core).
 2. Visual Studio Code o cualquier otro editor de tu preferencia.
@@ -206,7 +207,7 @@ Antes de comenzar asegurese de tener instalado:
 ---
 
 **Instruciones**
-- 1. Abre tu terminal y ejecuta: 
+- 1.Abre tu terminal y ejecuta: 
 ```bash
  git clone <https://github.com/Gonzawk/TicketsSales.git>
 ```
