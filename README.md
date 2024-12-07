@@ -193,6 +193,58 @@ Los administradores cuentan con un conjunto avanzado de herramientas para gestio
 ---
 ---
 
+### 📖 Instalacion y configuracion.
+
+**Requisitos Previos** 
+Antes de comenzar asegurese de tener instalado:
+1. Visual Studio (con las cargas de trabajo necesarias para el desarrollo con .NET Core).
+2. Visual Studio Code o cualquier otro editor de tu preferencia.
+3. Base de datos MySQL(recomiendo SQL Server Management Studio 20).
+4. Node .js y npm.
+5. React.
+
+
+**Instruciones**
+1. Abre tu terminal y ejecuta: 
+```bash git clone <URL_DEL_REPOSITORIO> ```
+
+2.Cambia al directorio del proyecto. 
+```bash cd TicketSales ```
+
+3.Crear la Base de Datos (Script en el proyecto). 
+
+4.Abrir la solucion del proyecto API en **Visual Studio** (`TicketSales.Api.sln`).
+
+5.Modificar en este el archivo `appsettings.json` para configurar la cadena de conexión con tu base de datos MySQL. Ejemplo:
+```json "ConnectionStrings": { "DefaultConnection": "Servidor=localhost;Base de datos=TicketSalesDB;Id de usuario=<usuario>;Contraseña=<contraseña>;" } ```
+
+6.Restaura las dependencias de la API ejecutando el siguiente comando en la consola del administrador de paquetes de Visual Studio.
+```bash dotnet restore ```
+
+7.Ejecuta la API (presiona **F5** o selecciona la opcion **Iniciar sin depuración** para ejecutar el servidor.
+
+8.Abra la carpeta del proyecto de la aplicacion web en **Visual Studio Code**.
+
+9.Instala las dependencias de npm necesarias ejecutando:
+```bash npm install ```
+
+10.En este punto solo queda verificar que el frontend tenga configurada correctamente la URL de la API (http://localhost:5000/api/).
+
+
+**Contribuir**
+
+1.Realiza un fork del repositorio. 
+
+2.Crea una nueva rama para tus cambios: 
+``` git checkout -b feature/nueva-funcionalidad ```
+
+3.Realiza tus cambios y subelos a tu repositorio fork.
+
+4.Envia un pull request para revision.
+
+---
+---
+
 ## 📌 Autor
 
 **👨‍💻 [Gonzalo Daniel Paz]**  _@GonzaDev_
